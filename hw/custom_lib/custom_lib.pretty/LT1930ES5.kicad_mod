@@ -1,0 +1,209 @@
+(footprint "LT1930ES5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Boost switching regulator adjustable, input min 2.45, output 1A, SMD SOT-23-5")
+	(tags "Step-Up Boost DC-DC Regulator Adjustable")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "7738eb5e-7342-4033-80d9-458801360be8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LT1930ES5"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "d0a7fec5-6633-47bc-92d4-fb0bc52f8815")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9033c014-f369-45de-99bd-b5d2e62a1083")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5565e35c-f8fe-4176-aa8d-a616514da2ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.65)
+		(end 0.9 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f576f60c-da8c-4cd3-baff-88da888c33f3")
+	)
+	(fp_line
+		(start 0.9 -1.65)
+		(end -0.9 -1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fbe98f0-97c9-4fbe-847f-898a351d6c0f")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end -2 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b7b89a8-6ad0-435a-bf2a-2d3b7cdee690")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end 2 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "575b62ea-3c6b-411b-9515-24ca0dd7651f")
+	)
+	(fp_line
+		(start 2 1.8)
+		(end -2 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d647716-dc3b-46b3-87ce-7b1a6aec0e71")
+	)
+	(fp_line
+		(start 2 1.8)
+		(end 2 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50ec4015-cd9b-4136-b0a2-dbcbc4d7e063")
+	)
+	(fp_line
+		(start -0.8 -1.5)
+		(end -0.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99703c63-2a66-4274-b789-4afd3dfc9caf")
+	)
+	(fp_line
+		(start 0.8 -1.5)
+		(end -0.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f57b60fd-fe6a-432f-9f55-d9a5542c4fdd")
+	)
+	(fp_line
+		(start 0.8 -1.5)
+		(end 0.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "459e213e-d951-4b8a-9dd9-aa03fb82c01b")
+	)
+	(fp_line
+		(start 0.8 1.5)
+		(end -0.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a10d3725-f7ba-4ff7-b9c0-98831ecf06e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "29449681-b455-4033-bb16-065718eaf902")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(italic yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 -0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e05a090c-bab6-4d26-a2db-f880a2faadbf")
+	)
+	(pad "2" smd rect
+		(at -1.15 0)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26b397f5-a1d6-44f9-a271-2167bd4cff19")
+	)
+	(pad "3" smd rect
+		(at -1.15 0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08f3e90d-0748-4ba3-8343-f3c0cec15977")
+	)
+	(pad "4" smd rect
+		(at 1.15 0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "045388fd-9206-406f-bda2-37abb6038098")
+	)
+	(pad "5" smd rect
+		(at 1.15 -0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07ee9ba5-6407-4f9e-9cc9-3a8c64cd5a34")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
