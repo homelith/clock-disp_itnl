@@ -1,9 +1,9 @@
-(footprint "FA28X7R1H104KNT00"
+(footprint "RDER72A104K1K1H03B"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "unpolarized capacitor, 0.1uF 50V 10%, THT Radial")
+	(descr "0.1 uF 15% 100V Ceramic Capacitor X7R, THT Radial 5mm pitch")
 	(tags "C capacitor cap")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FA28X7R1H104KNT00"
+	(property "Value" "RDER72A104K1K1H03B"
 		(at 0 1.6 0)
 		(layer "F.Fab")
 		(uuid "cfd4ddb5-33c1-4271-85d2-c1b5e7aa895d")
@@ -273,7 +273,7 @@
 		(uuid "1995f27b-8ac6-4b7b-b8e6-035ad5fd0d38")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../custom_lib/3dmodels/FA28X7R1H104KNU06.step"
+	(model "${KIPRJMOD}/../custom_lib/3dmodels/RDER72A104K1K1H03B.step"
 		(offset
 			(xyz 0 0 0)
 		)
